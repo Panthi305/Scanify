@@ -1,32 +1,50 @@
 # 📲 Scanify: A Smart Receipt Scanner & Expense Manager
 
-## 📌 Overview
-**Scanify** is a comprehensive full-stack application designed to help users efficiently manage their finances by digitizing, categorizing, and analyzing receipts.  
-
-The platform features robust expense tracking, an intuitive budget manager, and detailed financial reports — giving users complete control over their spending.
+🎥 **[Demo Video](https://drive.google.com/file/d/1UPdpdwv-02dSAKvXMcrG6ejsncTUs_LF/view?usp=sharing)**
 
 ---
+
 
 ## ❓ Problem Statement #40
-The goal is to build a tool that **scans and digitizes receipts**, automatically categorizes expenses, and generates reports.
+Build a tool that:
+- **Scans and digitizes receipts**  
+- **Automatically categorizes expenses**  
+- **Generates reports**  
 
 ---
 
+
+## 📌 Overview
+**Scanify** is a comprehensive full-stack application designed to help users efficiently manage their finances by **digitizing, categorizing, and analyzing receipts**.  
+
+The platform features:
+- Robust **expense tracking**
+- An intuitive **budget manager**
+- Detailed **financial reports**
+
+All combined to give users complete control over their spending.
+
+---
+
+
+
 ## ✨ Key Features
+
 - **🧾 Receipt & OCR Processing**  
-  Upload receipts and let the system extract information (store name, date, amount, items) using Optical Character Recognition (OCR).
+  Upload receipts and let the system extract data like store name, date, amount, and items using **OCR**.
 
 - **📂 Automated Expense Categorization**  
-  Smart categorization of expenses into predefined groups (Food, Travel, Rent, etc.).
+  Smartly sorts expenses into categories (Food, Travel, Rent, etc.).
 
 - **💰 Budget Management**  
-  Set budgets by category, track allocations, and get **real-time overspending alerts**.
+  Set category-wise budgets, track allocations, and receive **real-time overspending alerts**.
 
 - **📊 Interactive Dashboard & Reporting**  
-  Visualize spending trends, track habits, and export detailed reports in **PDF format**.
+  Visualize spending trends and habits with a dynamic dashboard.  
+  Export **PDF financial reports** for record-keeping.
 
 - **📨 Integrated Contact Form**  
-  Built-in contact form that sends confirmation emails to users and forwards messages to support.
+  Sends confirmation emails to users and forwards messages to support.
 
 - **📧 Email Integration**  
   Gmail SMTP-based transactional email system.
@@ -34,7 +52,7 @@ The goal is to build a tool that **scans and digitizes receipts**, automatically
 ---
 
 ## ⚙️ Tech Stack
-- **Frontend:** React.js  
+- **Frontend:** React+Vite
 - **Backend:** Flask (Python), Flask-Mail, Flask-CORS  
 - **Database:** MongoDB Atlas  
 - **Authentication:** JWT (JSON Web Tokens), Google OAuth  
@@ -43,12 +61,12 @@ The goal is to build a tool that **scans and digitizes receipts**, automatically
 
 ## 🚀 Getting Started
 
-### 🔹 run  Setup
+### 🔹 running Setup
 ```bash
-## Navigate to backend folder
+# Navigate to backend folder
 cd backend
 
-# Create virtual environment
+# Create a virtual environment
 python -m venv venv
 
 # Activate environment
@@ -63,8 +81,7 @@ pip install -r requirements.txt
 # Run application
 python app.py
 
-
-## Navigate to frontend folder
+# Navigate to frontend folder
 cd frontend
 
 # Install dependencies
