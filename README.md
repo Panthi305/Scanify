@@ -55,7 +55,7 @@ All combined to give users complete control over their spending.
 - **Frontend:** React+Vite
 - **Backend:** Flask (Python), Flask-Mail, Flask-CORS  
 - **Database:** MongoDB Atlas  
-- **Authentication:** JWT (JSON Web Tokens), Google OAuth  
+
 
 ---
 
