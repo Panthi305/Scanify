@@ -28,30 +28,30 @@ Authentication: JWT (JSON Web Tokens) and Google OAuth
 To run Scanify locally, follow these steps for both the backend and frontend components.
 
 🔹 Backend Setup
-Navigate to the backend directory:
-cd backend
-
-Create a virtual environment:
-python -m venv venv
-
-Activate the virtual environment:
-
-Windows: venv\Scripts\activate
-
-Mac/Linux: source venv/bin/activate
-
-Install the required dependencies:
-pip install -r requirements.txt
-
-Run the application:
-python app.py
+        Navigate to the backend directory:
+        cd backend
+        
+        Create a virtual environment:
+        python -m venv venv
+        
+        Activate the virtual environment:
+        
+        Windows: venv\Scripts\activate
+        
+        Mac/Linux: source venv/bin/activate
+        
+        Install the required dependencies:
+        pip install -r requirements.txt
+        
+        Run the application:
+        python app.py
 
 🔹 Frontend Setup
-Navigate to the frontend directory:
-cd frontend
-
-Install the project dependencies:
-npm install
-
-Start the development server:
-npm run dev
+        Navigate to the frontend directory:
+        cd frontend
+        
+        Install the project dependencies:
+        npm install
+        
+        Start the development server:
+        npm run dev
