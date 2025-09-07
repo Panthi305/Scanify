@@ -1,57 +1,74 @@
-Scanify: A Smart Receipt Scanner & Expense Manager
-📌 Overview
-Scanify is a comprehensive full-stack application designed to help users efficiently manage their finances by digitizing, categorizing, and analyzing receipts. The platform features robust expense tracking, an intuitive budget manager, and detailed financial reports, providing users with the tools they need to maintain control over their spending.
+# 📲 Scanify: A Smart Receipt Scanner & Expense Manager
 
-✨ Key Features
-Receipt & OCR Processing: Users can upload receipts, and the system uses Optical Character Recognition (OCR) to automatically extract critical information such as the store name, date, amount, and individual items.
+## 📌 Overview
+**Scanify** is a comprehensive full-stack application designed to help users efficiently manage their finances by digitizing, categorizing, and analyzing receipts.  
 
-Automated Expense Categorization: The application intelligently sorts expenses into predefined categories (e.g., Food, Travel, Rent), simplifying financial organization.
+The platform features robust expense tracking, an intuitive budget manager, and detailed financial reports — giving users complete control over their spending.
 
-Budget Management: Users can set budget allocations by percentage across different categories. The system provides real-time alerts for overspending to help users stay within their financial limits.
+---
 
-Interactive Dashboard & Reporting: A dynamic dashboard provides a visual overview of spending habits. Users can generate and export financial reports in PDF format for easy record-keeping.
+## ❓ Problem Statement #40
+The goal is to build a tool that **scans and digitizes receipts**, automatically categorizes expenses, and generates reports.
 
-Integrated Contact Form: A built-in contact form sends a confirmation email to the user and forwards their message to support, ensuring effective communication.
+---
 
-Email Integration: The application uses Gmail SMTP for sending transactional emails.
+## ✨ Key Features
+- **🧾 Receipt & OCR Processing**  
+  Upload receipts and let the system extract information (store name, date, amount, items) using Optical Character Recognition (OCR).
 
-⚙️ Tech Stack
-Frontend: React.js
+- **📂 Automated Expense Categorization**  
+  Smart categorization of expenses into predefined groups (Food, Travel, Rent, etc.).
 
-Backend: Flask (Python), along with Flask-Mail and Flask-CORS for email handling and cross-origin requests.
+- **💰 Budget Management**  
+  Set budgets by category, track allocations, and get **real-time overspending alerts**.
 
-Database: MongoDB Atlas
+- **📊 Interactive Dashboard & Reporting**  
+  Visualize spending trends, track habits, and export detailed reports in **PDF format**.
 
-Authentication: JWT (JSON Web Tokens) and Google OAuth
+- **📨 Integrated Contact Form**  
+  Built-in contact form that sends confirmation emails to users and forwards messages to support.
 
-🚀 Getting Started
-To run Scanify locally, follow these steps for both the backend and frontend components.
+- **📧 Email Integration**  
+  Gmail SMTP-based transactional email system.
 
-🔹 Backend Setup
-        Navigate to the backend directory:
-        cd backend
-        
-        Create a virtual environment:
-        python -m venv venv
-        
-        Activate the virtual environment:
-        
-        Windows: venv\Scripts\activate
-        
-        Mac/Linux: source venv/bin/activate
-        
-        Install the required dependencies:
-        pip install -r requirements.txt
-        
-        Run the application:
-        python app.py
+---
 
-🔹 Frontend Setup
-        Navigate to the frontend directory:
-        cd frontend
-        
-        Install the project dependencies:
-        npm install
-        
-        Start the development server:
-        npm run dev
+## ⚙️ Tech Stack
+- **Frontend:** React.js  
+- **Backend:** Flask (Python), Flask-Mail, Flask-CORS  
+- **Database:** MongoDB Atlas  
+- **Authentication:** JWT (JSON Web Tokens), Google OAuth  
+
+---
+
+## 🚀 Getting Started
+
+### 🔹 run  Setup
+```bash
+## Navigate to backend folder
+cd backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python app.py
+
+
+## Navigate to frontend folder
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
